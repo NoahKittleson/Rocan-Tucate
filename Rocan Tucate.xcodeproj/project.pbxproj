@@ -7,24 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70E82CB19F9F89E00D1D4D7 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B70E82CA19F9F89E00D1D4D7 /* SplashScreen.png */; };
+		B72F7FA219FC9A45005B6733 /* Jeremified.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72F7FA019FC9A45005B6733 /* Jeremified.cpp */; };
 		B7332BDA19F4939200CBE2E8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = B7332BD919F4939200CBE2E8 /* ResourcePath.mm */; };
 		B7332BDD19F4939200CBE2E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7332BDC19F4939200CBE2E8 /* main.cpp */; };
-		B7332BE019F4939200CBE2E8 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7332BDF19F4939200CBE2E8 /* cute_image.jpg */; };
 		B7332BE219F4939200CBE2E8 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B7332BE119F4939200CBE2E8 /* nice_music.ogg */; };
-		B7332BE419F4939200CBE2E8 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7332BE319F4939200CBE2E8 /* sansation.ttf */; };
-		B7332BE619F4939200CBE2E8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B7332BE519F4939200CBE2E8 /* icon.png */; };
+		B7332BEE19F4978300CBE2E8 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7332BED19F4978300CBE2E8 /* Game.cpp */; };
+		B7335B3A19F7642C00822B90 /* Toucan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7335B3819F7642C00822B90 /* Toucan.cpp */; };
+		B733B22F19FF28A200D41A54 /* Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B733B22D19FF28A200D41A54 /* Score.cpp */; };
+		B7385B421A4D064C003C2633 /* MainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B7385B411A4D064C003C2633 /* MainBackground.png */; };
+		B767492A1A4AD99F00CD59F9 /* BasicHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76749291A4AD99F00CD59F9 /* BasicHandwriting.ttf */; };
+		B77D35C81A4FD17F00CC2990 /* RocanTucateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B77D35C71A4FD17F00CC2990 /* RocanTucateIcon.png */; };
+		B786BEB119F4E50000D32363 /* SplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B786BEB019F4E50000D32363 /* SplashScreen.cpp */; };
+		B786BEB419F4EA7100D32363 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B786BEB219F4EA7100D32363 /* MainMenu.cpp */; };
+		B786BEB619F54BD300D32363 /* Jeremified.png in Resources */ = {isa = PBXBuildFile; fileRef = B786BEB519F54BD300D32363 /* Jeremified.png */; };
+		B786BEB919F5B5E400D32363 /* VisibleGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B786BEB719F5B5E300D32363 /* VisibleGameObject.cpp */; };
+		B79ACEB31A4024D5009CA3C6 /* NewMenuScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B79ACEB21A4024D5009CA3C6 /* NewMenuScreen.png */; };
+		B79ACEB51A4024DF009CA3C6 /* MenuButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = B79ACEB41A4024DF009CA3C6 /* MenuButtons.png */; };
+		B7B5CD8C1A44409B00F89740 /* StarryNight.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B5CD8B1A44409B00F89740 /* StarryNight.png */; };
+		B7C9D9801A43C1BB00C1A442 /* GloriousFather.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C9D97F1A43C1BB00C1A442 /* GloriousFather.png */; };
+		B7D849601A1AD2B800ACC506 /* Mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7D8495F1A1AD2B800ACC506 /* Mountains.jpg */; };
+		B7DB63561A15D275000F80C4 /* ROCAN.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DB63551A15D275000F80C4 /* ROCAN.png */; };
+		B7F136BB1A0B49200097A75C /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7F136B91A0B49200097A75C /* Settings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70E82CA19F9F89E00D1D4D7 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
+		B72F7FA019FC9A45005B6733 /* Jeremified.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Jeremified.cpp; sourceTree = "<group>"; };
+		B72F7FA119FC9A45005B6733 /* Jeremified.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jeremified.h; sourceTree = "<group>"; };
 		B7332BD419F4939200CBE2E8 /* Rocan Tucate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocan Tucate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7332BD819F4939200CBE2E8 /* Rocan Tucate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rocan Tucate-Info.plist"; sourceTree = "<group>"; };
 		B7332BD919F4939200CBE2E8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		B7332BDB19F4939200CBE2E8 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		B7332BDC19F4939200CBE2E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B7332BDF19F4939200CBE2E8 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		B7332BE119F4939200CBE2E8 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		B7332BE319F4939200CBE2E8 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		B7332BE519F4939200CBE2E8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B7332BEC19F495DD00CBE2E8 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		B7332BED19F4978300CBE2E8 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = "Rocan Tucate/Game.cpp"; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		B7332BEF19F4A0C600CBE2E8 /* RocanTucatePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RocanTucatePrefix.pch; sourceTree = "<group>"; };
+		B7335B3819F7642C00822B90 /* Toucan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Toucan.cpp; sourceTree = "<group>"; };
+		B7335B3919F7642C00822B90 /* Toucan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toucan.h; sourceTree = "<group>"; };
+		B733B22D19FF28A200D41A54 /* Score.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Score.cpp; sourceTree = "<group>"; };
+		B733B22E19FF28A200D41A54 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		B7385B411A4D064C003C2633 /* MainBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBackground.png; sourceTree = "<group>"; };
+		B76749291A4AD99F00CD59F9 /* BasicHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BasicHandwriting.ttf; sourceTree = "<group>"; };
+		B77D35C71A4FD17F00CC2990 /* RocanTucateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RocanTucateIcon.png; sourceTree = "<group>"; };
+		B786BEAF19F4E49C00D32363 /* SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		B786BEB019F4E50000D32363 /* SplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScreen.cpp; sourceTree = "<group>"; };
+		B786BEB219F4EA7100D32363 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
+		B786BEB319F4EA7100D32363 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; usesTabs = 1; };
+		B786BEB519F54BD300D32363 /* Jeremified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jeremified.png; sourceTree = "<group>"; };
+		B786BEB719F5B5E300D32363 /* VisibleGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleGameObject.cpp; sourceTree = "<group>"; };
+		B786BEB819F5B5E400D32363 /* VisibleGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleGameObject.h; sourceTree = "<group>"; };
+		B79ACEB21A4024D5009CA3C6 /* NewMenuScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewMenuScreen.png; sourceTree = "<group>"; };
+		B79ACEB41A4024DF009CA3C6 /* MenuButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuButtons.png; sourceTree = "<group>"; };
+		B7B5CD8B1A44409B00F89740 /* StarryNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarryNight.png; sourceTree = "<group>"; };
+		B7C9D97F1A43C1BB00C1A442 /* GloriousFather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GloriousFather.png; sourceTree = "<group>"; };
+		B7D8495F1A1AD2B800ACC506 /* Mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountains.jpg; sourceTree = "<group>"; };
+		B7DB63551A15D275000F80C4 /* ROCAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROCAN.png; sourceTree = "<group>"; };
+		B7F136B91A0B49200097A75C /* Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Settings.cpp; sourceTree = "<group>"; };
+		B7F136BA1A0B49200097A75C /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +101,23 @@
 				B7332BD919F4939200CBE2E8 /* ResourcePath.mm */,
 				B7332BDB19F4939200CBE2E8 /* ResourcePath.hpp */,
 				B7332BDC19F4939200CBE2E8 /* main.cpp */,
+				B7332BEC19F495DD00CBE2E8 /* Game.h */,
+				B7332BED19F4978300CBE2E8 /* Game.cpp */,
+				B733B22E19FF28A200D41A54 /* Score.h */,
+				B733B22D19FF28A200D41A54 /* Score.cpp */,
+				B72F7FA119FC9A45005B6733 /* Jeremified.h */,
+				B72F7FA019FC9A45005B6733 /* Jeremified.cpp */,
+				B7335B3919F7642C00822B90 /* Toucan.h */,
+				B7335B3819F7642C00822B90 /* Toucan.cpp */,
+				B786BEB819F5B5E400D32363 /* VisibleGameObject.h */,
+				B786BEB719F5B5E300D32363 /* VisibleGameObject.cpp */,
+				B7F136BA1A0B49200097A75C /* Settings.h */,
+				B7F136B91A0B49200097A75C /* Settings.cpp */,
+				B786BEAF19F4E49C00D32363 /* SplashScreen.h */,
+				B786BEB019F4E50000D32363 /* SplashScreen.cpp */,
+				B786BEB319F4EA7100D32363 /* MainMenu.h */,
+				B786BEB219F4EA7100D32363 /* MainMenu.cpp */,
+				B7332BEF19F4A0C600CBE2E8 /* RocanTucatePrefix.pch */,
 				B7332BDE19F4939200CBE2E8 /* Resources */,
 				B7332BD719F4939200CBE2E8 /* Supporting Files */,
 			);
@@ -77,10 +135,18 @@
 		B7332BDE19F4939200CBE2E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B7332BDF19F4939200CBE2E8 /* cute_image.jpg */,
+				B7385B411A4D064C003C2633 /* MainBackground.png */,
+				B7DB63551A15D275000F80C4 /* ROCAN.png */,
+				B786BEB519F54BD300D32363 /* Jeremified.png */,
+				B79ACEB41A4024DF009CA3C6 /* MenuButtons.png */,
+				B79ACEB21A4024D5009CA3C6 /* NewMenuScreen.png */,
+				B7B5CD8B1A44409B00F89740 /* StarryNight.png */,
+				B7C9D97F1A43C1BB00C1A442 /* GloriousFather.png */,
+				B77D35C71A4FD17F00CC2990 /* RocanTucateIcon.png */,
+				B70E82CA19F9F89E00D1D4D7 /* SplashScreen.png */,
+				B76749291A4AD99F00CD59F9 /* BasicHandwriting.ttf */,
+				B7D8495F1A1AD2B800ACC506 /* Mountains.jpg */,
 				B7332BE119F4939200CBE2E8 /* nice_music.ogg */,
-				B7332BE319F4939200CBE2E8 /* sansation.ttf */,
-				B7332BE519F4939200CBE2E8 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +208,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7332BE619F4939200CBE2E8 /* icon.png in Resources */,
-				B7332BE419F4939200CBE2E8 /* sansation.ttf in Resources */,
+				B79ACEB51A4024DF009CA3C6 /* MenuButtons.png in Resources */,
+				B7385B421A4D064C003C2633 /* MainBackground.png in Resources */,
+				B767492A1A4AD99F00CD59F9 /* BasicHandwriting.ttf in Resources */,
+				B786BEB619F54BD300D32363 /* Jeremified.png in Resources */,
+				B79ACEB31A4024D5009CA3C6 /* NewMenuScreen.png in Resources */,
+				B7D849601A1AD2B800ACC506 /* Mountains.jpg in Resources */,
 				B7332BE219F4939200CBE2E8 /* nice_music.ogg in Resources */,
-				B7332BE019F4939200CBE2E8 /* cute_image.jpg in Resources */,
+				B70E82CB19F9F89E00D1D4D7 /* SplashScreen.png in Resources */,
+				B77D35C81A4FD17F00CC2990 /* RocanTucateIcon.png in Resources */,
+				B7B5CD8C1A44409B00F89740 /* StarryNight.png in Resources */,
+				B7DB63561A15D275000F80C4 /* ROCAN.png in Resources */,
+				B7C9D9801A43C1BB00C1A442 /* GloriousFather.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B786BEB119F4E50000D32363 /* SplashScreen.cpp in Sources */,
+				B7332BEE19F4978300CBE2E8 /* Game.cpp in Sources */,
+				B7F136BB1A0B49200097A75C /* Settings.cpp in Sources */,
 				B7332BDD19F4939200CBE2E8 /* main.cpp in Sources */,
+				B72F7FA219FC9A45005B6733 /* Jeremified.cpp in Sources */,
+				B7335B3A19F7642C00822B90 /* Toucan.cpp in Sources */,
 				B7332BDA19F4939200CBE2E8 /* ResourcePath.mm in Sources */,
+				B733B22F19FF28A200D41A54 /* Score.cpp in Sources */,
+				B786BEB419F4EA7100D32363 /* MainMenu.cpp in Sources */,
+				B786BEB919F5B5E400D32363 /* VisibleGameObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +371,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Rocan Tucate/Rocan Tucate-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -297,6 +380,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Rocan Tucate/Rocan Tucate-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -319,6 +403,7 @@
 				B7332BEB19F4939200CBE2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
