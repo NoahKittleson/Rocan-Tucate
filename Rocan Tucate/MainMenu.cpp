@@ -8,6 +8,7 @@
 
 #include <RocanTucatePrefix.pch>
 #include "MainMenu.h"
+#include "ResourcePath.hpp"
 
 MainMenu::MainMenu()
 : TotalElapsed(0),
@@ -18,22 +19,22 @@ red(130), green(200), blue(230), Opacity(0)
 	_backgroundColor = sf::Color(red, green, blue);	//R - G - B
 	
     //MenuScreen sprite
-    _texture.loadFromFile("NewMenuScreen.png");
+    _texture.loadFromFile(resourcePath() + "NewMenuScreen.png");
     _MenuSprite.setTexture(_texture);
     _MenuSprite.setScale(16.0f, 16.0f);
 	//Sun Sprite
-	_texture3.loadFromFile("GloriousFather.png");
+	_texture3.loadFromFile(resourcePath() + "GloriousFather.png");
 	_SunSprite.setTexture(_texture3);
 	_SunSprite.setScale(16.0f, 16.0f);
 	_SunSprite.setTextureRect(sf::IntRect(0,0,30,30));
 	_SunSprite.setPosition(-80.0f, -80.0f);
 	//Star Sprite
-	_texture4.loadFromFile("StarryNight.png");
+	_texture4.loadFromFile(resourcePath() + "StarryNight.png");
 	_StarSprite.setTexture(_texture4);
 	_StarSprite.setScale(16.0f, 16.0f);
 	_StarSprite.setColor(sf::Color(125,125,125,0));
 	//MenuButton Sprite
-    _texture2.loadFromFile("MenuButtons.png");
+    _texture2.loadFromFile(resourcePath() + "MenuButtons.png");
     _MenuButtons.setTexture(_texture2);
     _MenuButtons.setScale(16.0f, 16.0f);
     

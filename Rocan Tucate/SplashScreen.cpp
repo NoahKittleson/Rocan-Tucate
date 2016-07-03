@@ -8,15 +8,16 @@
 
 #include <RocanTucatePrefix.pch>
 #include "SplashScreen.h"
+#include "ResourcePath.hpp"
 
 
 SplashScreen::SplashScreen(sf::RenderWindow &rw)
 {
-    texture.loadFromFile("RocanTucateIcon.png");
+    texture.loadFromFile(resourcePath() + "RocanTucateIcon.png");
     icon.setTexture(texture);
     icon.setOrigin(texture.getSize().x/2, texture.getSize().y/2);
     icon.setPosition(rw.getSize().x/2, rw.getSize().y/2);
-    font.loadFromFile("BasicHandwriting.ttf");
+    font.loadFromFile(resourcePath() + "BasicHandwriting.ttf");
     message.setFont(font);
     message.setString("Press Any Button to Start");
     message.setColor(sf::Color::Red);

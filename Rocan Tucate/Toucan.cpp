@@ -8,13 +8,14 @@
 
 #include "RocanTucatePrefix.pch"
 #include "Toucan.h"
+#include "ResourcePath.hpp"
 //#include "Game.h"
 
 
 Toucan::Toucan()
  : _rotation (360.0)
 {
-    Load("ROCAN.png");
+    Load(resourcePath() + "ROCAN.png");
     //assert(IsLoaded());
     
     GetSprite().setOrigin(63.0,47.0);

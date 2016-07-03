@@ -8,7 +8,7 @@
 
 #include <RocanTucatePrefix.pch>
 #include "Game.h"
-
+#include "ResourcePath.hpp"
 #include "SplashScreen.h"
 
 
@@ -20,11 +20,11 @@ void Game::Start(void)
 	_mainwindow.setFramerateLimit(60);
 	
 	sf::Image icon;
-	icon.loadFromFile("RocanTucateIcon.png");
-	_mainwindow.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
+	icon.loadFromFile(resourcePath() + "RocanTucateIcon.png");
+	//_mainwindow.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
 	sf::Texture texture;
-	texture.loadFromFile("MainBackground.png");
+	texture.loadFromFile(resourcePath() + "MainBackground.png");
 	_background.setTexture(texture);
 	_background.setScale(8.0f, 8.0f);
 	
@@ -38,10 +38,10 @@ void Game::Start(void)
 	_GUI.setCenter(300, 300);
 	_GUI.setViewport(sf::FloatRect(.25,0,0.5,0.5));
 	
-    _score.Load("BasicHandwriting.ttf");
+    _score.Load(resourcePath() + "BasicHandwriting.ttf");
     _score.SetPosition(200.0f, 200.0f);
     
-    _jeremified.Load("Jeremified.png");
+    _jeremified.Load(resourcePath() + "Jeremified.png");
     _jeremified.SetPosition(100.0, 100.0);
     
     //_toucan.Load("ROCAN.png");                   //I don't need to load, because constructor does it

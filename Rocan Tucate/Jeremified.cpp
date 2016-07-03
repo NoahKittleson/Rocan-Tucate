@@ -10,6 +10,8 @@
 #include "RocanTucatePrefix.pch"
 #include <cassert>
 #include "game.h"
+#include "ResourcePath.hpp"
+
 
 #include <cmath>
 
@@ -18,7 +20,7 @@ Jeremified::Jeremified():
  _velocity(500.0),
  _angle(70.0)
 {
-    Load ("jeremified.png");
+    Load (resourcePath() + "jeremified.png");
     //assert (IsLoaded());
     
     GetSprite().setOrigin(48.0, 34.0);
